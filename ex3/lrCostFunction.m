@@ -28,11 +28,11 @@ grad = zeros(size(theta));
 %       the cost function and gradient computations.
 %
 % Hint: When computing the gradient of the regularized cost function,
-%       there're many possible vectorized solutions, but one solution
+%       there are many possible vectorized solutions, but one solution
 %       looks like:
 %           grad = (unregularized gradient for logistic regression)
 %           temp = theta;
-%           temp(1) = 0;   % because we don't add anything for j = 0
+%           temp(1) = 0;   % because we do not add anything for j = 0
 %           grad = grad + YOUR_CODE_HERE (using the temp variable)
 %
 
